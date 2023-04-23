@@ -1,38 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🌍 Inspiration
 
-## Getting Started
+Climate change is one of the most pressing issues of our time, and reducing carbon emissions is crucial to mitigating its impact. Shipping is a significant source of carbon emissions, and we wanted to create a tool that helps users calculate their carbon footprint during shipping and take action to reduce it.
 
-First, run the development server:
+## 🚛 What it does
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Carbon Clean is a web app that allows users to calculate the carbon footprint created during shipping (air, road, and sea). It shows the impact of shipping in terms of kgs of CO2 produced and offers educational tips on how to reduce this footprint by incorporating a number of green and clean practices. Each tip is accompanied by study material and videos related to it. Users can even offset their carbon footprint by making donations to various organizations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 How we built it
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+We built Carbon Clean using NextJS and Daisy UI. We used APIs to fetch the carbon footprint data and integrated it with the web app. The educational tips, study material, and videos were curated from various sources, and we used a CMS to manage them efficiently.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🤯 Challenges we ran into
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+One of the biggest challenges we faced was integrating the APIs to fetch the carbon footprint data. We had to ensure that the data was accurate and up-to-date to provide users with the most reliable information. Additionally, curating the educational material and videos took time, and we had to ensure that we provided high-quality resources.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🏆 Accomplishments that we're proud of
 
-## Learn More
+We're proud of creating a web app that empowers users to take action to reduce their carbon footprint during shipping. We're also proud of the educational resources we've curated, which we hope will inspire users to adopt green and clean practices.
 
-To learn more about Next.js, take a look at the following resources:
+## 📚 What we learned
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We learned a lot about the impact of shipping on the environment and the various ways in which we can reduce this impact. We also learned how to integrate APIs, curate educational resources, and manage a CMS effectively.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🔜 What's next for Carbon Clean
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+In the future, we plan to expand the educational resources available on Carbon Clean and offer more ways for users to offset their carbon footprint during shipping. We also plan to integrate additional features that will make it even easier for users to take action to reduce their carbon footprint.
